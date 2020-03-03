@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Places"
+            android:icon="@drawable/placesrch"
+            android:title="Find Places" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/fav"
+            android:title="My Favourite Places" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/noti"
+            android:title="View Approval Notifications" />
+        <item
+            android:id="@+id/nav_trips"
+            android:icon="@drawable/trips"
+            android:title="View Trips" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/bank"
+            android:title="Add Bank" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/paymnt"
+            android:title="Make Payment" />
+
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logouttt"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
